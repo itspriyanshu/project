@@ -10,7 +10,7 @@ function getones(num){
     let local = Math.floor(num);
     while(local>0){
         if(local%2===1){
-            count = count + 1;
+            count++;
         }
         local = Math.floor(local/2);
     }
